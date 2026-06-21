@@ -1,0 +1,8 @@
+[includeIf "gitdir:~/Documents/github/"]
+  path = ~/.gitconfig-github
+
+[includeIf "gitdir:~/Documents/gitea/"]
+  path = ~/.gitconfig-gitea
+
+[core]
+  excludesfile = ~/.gitignore_global
