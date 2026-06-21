@@ -1,0 +1,33 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.layoutControl.enabled": false,
+  "workbench.navigationControl.enabled": false,
+  "window.commandCenter": false,
+  "workbench.activityBar.location": "top",
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "terminal.integrated.fontSize": 14,
+  "debug.console.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "workbench.tips.enabled": false,
+  "editor.scrollbar.horizontalScrollbarSize": 10,
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "workbench.tree.renderIndentGuides": "always",
+  "typescript.preferences.quoteStyle": "single",
+  "editor.linkedEditing": true,
+  "editor.accessibilitySupport": "off",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.zoomPerWindow": false,
+  "extensions.ignoreRecommendations": true,
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "editor.guides.bracketPairs": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.editor.enablePreview": false,
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "workbench.colorTheme": "Default Light Modern"
+}
