@@ -1,0 +1,30 @@
+# --- Aliases ---
+alias t='tree -C -L 2 --dirsfirst -I "node_modules|.git|.DS_Store"'
+alias ls='eza --icons -a --git --group-directories-first --ignore-glob=".DS_Store"'
+alias glow="glow -t -l"
+
+# --- Functions ---
+f() {
+  FZF_DEFAULT_COMMAND='/opt/homebrew/bin/fd --type f --hidden --exclude .DS_Store --exclude node_modules --exclude .git' \
+  fzf --style full \
+    --padding 1,2 \
+    --preview 'fzf-preview.sh {}' \
+    --bind 'result:transform-list-label:
+      if [[ -z $FZF_QUERY ]]; then
+        echo " $FZF_MATCH_COUNT items "
+      else
+        echo " $FZF_MATCH_COUNT matches for [$FZF_QUERY] "
+      fi
+      ' \
+    --bind 'focus:transform-preview-label:[[ -n {} ]] && printf " Previewing [%s] " {}' \
+    --bind 'focus:+transform-header:file --brief {} || echo "No file selected"' \
+    --bind 'ctrl-r:change-list-label( Reloading the list )+reload(sleep 2; git ls-files)' \
+    --color 'border:#aaaaaa,label:#cccccc' \
+    --color 'preview-border:#9999cc,preview-label:#ccccff' \
+    --color 'list-border:#669966,list-label:#99cc99' \
+    --color 'input-border:#996666,input-label:#ffcccc' \
+    --color 'header-border:#6699cc,header-label:#99ccff'
+}
+
+# --- Auto Run Commands ---
+fastfetch
