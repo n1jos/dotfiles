@@ -1,0 +1,54 @@
+{
+  "logo": {
+    "source": "~/.config/fastfetch/myascii.txt",
+    "padding": {
+      "top": 2
+    }
+  },
+  "modules": [
+    "break",
+    "break",
+    "datetime",
+    "uptime",
+    "break",
+    "os",
+    "kernel",
+    "de",
+    "packages",
+    "version",
+    "break",
+    "board",
+    {
+      "type": "cpu",
+      "showPeCoreCount": true,
+      "temp": true
+    },
+    {
+      "type": "gpu",
+      "driverSpecific": false,
+      "temp": true
+    },
+    "memory",
+    {
+      "type": "swap",
+      "separate": true
+    },
+    "disk",
+    "break",
+    "dns",
+    {
+      "type": "localip",
+      "showIpv6": false,
+      "showMac": false,
+      "showSpeed": false,
+      "showMtu": false,
+      "showLoop": false,
+      "showFlags": false,
+      "showAllIps": false
+    },
+    {
+      "type": "publicip",
+      "timeout": 1000
+    }
+  ]
+}

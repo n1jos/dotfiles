@@ -1,0 +1,55 @@
+{
+  "logo": {
+    "padding": {
+      "top": 1
+    }
+  },
+  "modules": [
+    "break",
+    "datetime",
+    "uptime",
+    {
+      "type": "battery",
+      "temp": true
+    },
+    "break",
+    "os",
+    "packages",
+    "version",
+    "break",
+    "host",
+    {
+      "type": "cpu",
+      "showPeCoreCount": true,
+      "temp": true
+    },
+    {
+      "type": "gpu",
+      "driverSpecific": true,
+      "temp": true
+    },
+    "memory",
+    {
+      "type": "swap",
+      "separate": true
+    },
+    "disk",
+    "break",
+    "dns",
+    {
+      "type": "localip",
+      "showIpv6": true,
+      "showMac": false,
+      "showSpeed": false,
+      "showMtu": false,
+      "showLoop": false,
+      "showFlags": false,
+      "showAllIps": false
+    },
+    {
+      "type": "publicip",
+      "timeout": 1000
+    },
+    "break"
+  ]
+}
