@@ -13,7 +13,7 @@ My personal dotfiles, shell scripts, and system configurations.
 |----------------|----------------------------------------------------|
 | `fastfetch/`   | Fastfetch configs and ascii art                    |
 | `ghostty/`     | Ghostty terminal config                            |
-| `git/`         | Git config and global gitignore                    |
+| `gitconfig/`   | Git config and global gitignore                    |
 | `scripts/`     | General purpose shell scripts, python scripts, ... |
 | `scripts/gum/` | Interactive shell scripts using Gum                |
 | `vscodium/`    | VSCodium settings                                  |
