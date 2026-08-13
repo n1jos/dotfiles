@@ -3,9 +3,10 @@
 My personal dotfiles, shell scripts, and system configurations.
 
 > [!WARNING]
-> These are my personal configurations and are shared as-is.
-> Use at your own risk — what works for me may not work for you.
-> I am not responsible for any damage or data loss caused by using these configs.
+> These are my personal dotfiles, shell scripts, and system configurations, shared as-is.
+> They are tailored to my own setup and may not work correctly on yours.
+> Review and understand any configuration or script before using it.
+> Use at your own risk; I am not responsible for any damage, data loss, or other issues resulting from their use.
 
 ## Contents
 
