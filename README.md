@@ -1,7 +1,5 @@
 # dotfiles
 
-My personal dotfiles, shell scripts, and system configurations.
-
 > [!WARNING]
 > These are my personal dotfiles, shell scripts, and system configurations, shared as-is.
 > They are tailored to my own setup and may not work correctly on yours.
