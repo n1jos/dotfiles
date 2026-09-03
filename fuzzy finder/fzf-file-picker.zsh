@@ -1,9 +1,3 @@
-# --- Aliases ---
-alias t='tree -C -L 2 --dirsfirst -I "node_modules|.git|.DS_Store"'
-alias ls='eza --icons -a --git --group-directories-first --ignore-glob=".DS_Store"'
-alias glow="glow -t -l"
-
-# --- Functions ---
 f() {
   FZF_DEFAULT_COMMAND='/opt/homebrew/bin/fd --type f --hidden --exclude .DS_Store --exclude node_modules --exclude .git' \
   fzf --style full \
@@ -25,6 +19,3 @@ f() {
     --color 'input-border:#996666,input-label:#ffcccc' \
     --color 'header-border:#6699cc,header-label:#99ccff'
 }
-
-# --- Auto Run Commands ---
-fastfetch
